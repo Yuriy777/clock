@@ -1,0 +1,211 @@
+body {
+	background: url(http://desktopwallpapers.org.ua/images/201110/desktopwallpapers.org.ua_5635.jpg);
+	
+}
+.wrapper {
+	min-width: 320px;
+	max-width: 1000px;
+	position: relative;
+	height: 100vh;
+	margin: 0 auto;
+}
+.container {
+	max-width: 320px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translateX(-50%) translateY(-50%);
+}
+.clock {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	border: 12px solid #000;
+	position: relative;
+	text-align: center;
+	overflow: hidden;
+	background: #fff;
+}
+.clock-face {
+	border-radius: 50%;
+	width: 600px;
+	height: 600px;
+	background: #fff;
+	padding: 10px;
+	position: absolute;
+	transform: translateX(-213px) translateY(-213px);
+}
+.minutes {
+	position: absolute;
+}
+.minutes > div {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+.minutes .big {
+	border-left: 2px solid #f00;
+	height: 7px;
+	display: inline-block;
+	position: absolute;
+	top: 0;
+	left:0;
+}
+.minutes .small {
+	border-left: 2px solid #000;
+	height: 4px;
+	display: inline-block;
+	position: absolute;
+}
+.one {
+	left: 311px;
+	top: 0;
+}
+.minutes .first {
+	transform: rotate(6deg);
+	left: 32.6px;
+	top:1.7px;
+
+}
+.minutes .second {
+	transform: rotate(12deg);
+	left: 64.9px;
+	top:6.8px;
+}
+.minutes .third {
+	transform: rotate(18deg);
+	left: 96.4px;
+	top:15.3px;
+}
+.minutes .fourth {
+	transform: rotate(24deg);
+	left: 126.9px;
+	top:27px;
+}
+.two {
+	left: 468px;
+	top: 41.8px;
+	transform: rotate(30deg);
+}
+.three {
+	left: 582.2px;
+	top: 156px;
+	transform: rotate(60deg);
+}
+.four {
+	left: 624px;
+	top: 312px;
+	transform: rotate(90deg);
+}
+.five {
+	left: 582.2px;
+	top: 468px;
+	transform: rotate(120deg);
+}
+.six {
+	left: 468px;
+	top: 582.2px;
+	transform: rotate(150deg);
+}
+.seven {
+	left: 313px;
+	top: 624px;
+	transform: rotate(180deg);
+}
+.eight {
+	left: 158px;
+	top: 582.2px;
+	transform: rotate(210deg);
+}
+.nine {
+	left: 41.8px;
+	top: 469px;
+	transform: rotate(240deg);
+}
+.ten {
+	left: 0;
+	top: 314px;
+	transform: rotate(270deg);
+}
+.eleven {
+	left: 41.8px;
+	top: 157px;
+	transform: rotate(300deg);
+}
+.twelve {
+	left: 154px;
+	top: 41.8px;
+	transform: rotate(330deg);
+}
+.number {
+	font-size: 30px;
+	font-weight: bold;
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+.number li {
+	position: absolute;
+}
+.number0 {
+	left: 300px;
+}
+.number1 {
+	left: 448px;
+	top: 54.8px;
+}
+.number2 {
+	left: 551.2px;
+	top: 156px;
+}
+.number3 {
+	left: 589.2px;
+  top: 295px;
+}
+.number4 {
+  left: 551.2px;
+  top: 442px;
+}
+.number5 {
+  left: 449.2px;
+  top: 539px;
+}
+.number6 {
+  left: 304px;
+  top: 577px;
+}
+.number7 {
+  left: 160px;
+  top: 537px;
+}
+.number8 {
+  left: 58px;
+  top: 439px;
+}
+.number9 {
+	left: 20px;
+  top: 294px;
+}
+.number10 {
+	left: 60px;
+	top: 149px;
+}
+.number11 {
+	left: 155px;
+	top: 52px;
+}
+.pointer {
+	height: 100%;
+	border-left: 2px solid #f00;
+	display: inline-block;
+	margin-left: -2px;
+}
+#button {
+	position: absolute;
+	bottom: 50px;
+	left:29%;
+	background: #dd8;
+	text-transform: uppercase;
+	font-weight: bold;
+	outline: none;
+}
